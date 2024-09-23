@@ -1,0 +1,51 @@
+name: spotifyapp
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: # Specify the latest stable version or adjust as necessary
+  flutter_bloc: ^8.1.6
+  hydrated_bloc: ^9.1.5
+  path_provider: 
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/spotify_icon.png"  # Path to your app icon
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/vectors/
+
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/SATOSHI-BLACK.OTF
+          weight: 900
+        - asset: assets/fonts/SATOSHI-BOLD.OTF
+          weight: 600
+        - asset: assets/fonts/SATOSHI-MEDIUM.OTF
+          weight: 500
+        - asset: assets/fonts/SATOSHI-REGULAR.OTF
+          weight: 400
+        - asset: assets/fonts/SATOSHI-LIGHT.OTF
+          weight: 300
