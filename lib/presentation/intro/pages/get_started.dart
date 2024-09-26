@@ -62,7 +62,7 @@ class GetStartedPage extends StatelessWidget {
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(
-                  height: 20,
+                  height: 48,
                 ),
                 BasicAppButton(
                   onPressed: () {
@@ -73,7 +73,7 @@ class GetStartedPage extends StatelessWidget {
                       )
                     );
                   },
-                  title: 'Get Started', style: '',
+                  title: 'Get Started',
                 )
               ]
             ),
