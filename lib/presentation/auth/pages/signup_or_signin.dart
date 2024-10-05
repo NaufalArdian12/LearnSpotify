@@ -88,6 +88,12 @@ class SignupOrSigninPage extends StatelessWidget {
                         flex: 1,
                         child: TextButton(
                           onPressed: (){}, 
+                          style: TextButton.styleFrom(
+                            minimumSize: Size.fromHeight(52),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(16)
+                            )
+                          ),
                           child: Text(
                             'Sign in',
                             style: TextStyle(
@@ -95,7 +101,7 @@ class SignupOrSigninPage extends StatelessWidget {
                               fontSize: 16,
                               color: context.isDarkMode ? Colors.white : Colors.black
                             ),
-                          )
+                          ),
                         ),
                       )
                     ],
