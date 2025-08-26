@@ -69,7 +69,7 @@ class ChooseModePage extends StatelessWidget {
                               height: 72,
                               width: 72,
                               decoration: BoxDecoration(
-                                  color: Color(0xff30393c).withOpacity(0.5),
+                                  color: const Color(0xff30393c).withOpacity(0.5),
                                   shape: BoxShape.circle),
                               child: SvgPicture.asset(
                                 AppVectors.moon,
@@ -79,10 +79,10 @@ class ChooseModePage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 15,
                       ),
-                      Text(
+                      const Text(
                         'Dark Mode',
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
@@ -91,7 +91,7 @@ class ChooseModePage extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 36,
                   ),
                   Column(
@@ -118,10 +118,10 @@ class ChooseModePage extends StatelessWidget {
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 15,
                       ),
-                      Text(
+                      const Text(
                         'Light Mode',
                         style: TextStyle(
                             fontWeight: FontWeight.w500,
