@@ -35,7 +35,7 @@ class SignupOrSigninPage extends StatelessWidget {
           Align(
             alignment: Alignment.center,
             child: Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 40
               ),
               child: Column(
@@ -45,21 +45,22 @@ class SignupOrSigninPage extends StatelessWidget {
                   SvgPicture.asset(
                     AppVectors.logo
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 48,
                   ),
-                  Text(
+                  const Text(
                     'Enjoy Listening To Music',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 28
+                      fontSize: 28,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 16,
                   ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                  const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 16),
                     child: Text(
                       'Spotify is a proprietary Swedish audio streaming and media services provider ',
                       style: TextStyle(
@@ -70,7 +71,7 @@ class SignupOrSigninPage extends StatelessWidget {
                     ),
                     
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 32,
                   ),
               
@@ -83,13 +84,13 @@ class SignupOrSigninPage extends StatelessWidget {
                           title: 'Register',
                         ),
                       ),
-                      SizedBox(width: 24,),
+                      const SizedBox(width: 24,),
                       Expanded(
                         flex: 1,
                         child: TextButton(
                           onPressed: (){}, 
                           style: TextButton.styleFrom(
-                            minimumSize: Size.fromHeight(52),
+                            minimumSize: const Size.fromHeight(52),
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(16)
                             )
